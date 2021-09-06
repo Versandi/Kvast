@@ -9,12 +9,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-main > h2 {
+section h2 {
   margin: 0;
   padding: 0;
   font-size: 40px;
   font-weight: bold;
-  line-height: 61px;
   color: #000000;
 }
 
@@ -23,15 +22,22 @@ main > h2 {
   margin: 0 auto;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .page-header {
-  height: 550px;
+  padding-top: 60px;
+  min-height: 550px;
   background-image: url("../img/wheat-back.jpg");
   background-position: bottom;
   background-size: cover;
 }
 
 .header-wrapper {
-  padding-top: 60px;
+  
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -77,4 +83,148 @@ main > h2 {
   font-weight: bold;
   line-height: 70px;
   color: #ffffff;
+}
+
+.new h2 {
+  margin-top: 95px;
+}
+
+.new  h3 {
+  margin: 0;
+  margin-left: 35px;
+  padding: 0;
+  font-size: 40px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.new__container {
+  margin-top: 90px;
+  width: 50%;
+}
+
+.new__container:first-of-type {
+  float: left;
+}
+
+.new__container:last-of-type {
+  float: right;
+}
+
+.new__container__description {
+  float: right;
+}
+
+.adventages {
+  
+  
+  background-color: #e5b66c;
+}
+
+.container-large {
+  max-width: 1015px;
+  margin: 0 auto;
+}
+
+.adventages__list {
+  margin: 0;
+  
+  padding: 0;
+  list-style: none;
+}
+
+.adventages__list li {
+  height: 401px;
+  width: 338px;
+  padding-top: 188px;
+  float: left;
+  position: relative;
+}
+
+.adventages__list li::before {
+  content: "";
+  position: absolute;
+  
+}
+  
+.adventages__list li:nth-child(1)::before {
+  top: 108px;
+  left: 0;
+  width: 50px;
+  height: 68px;
+  background-image: url("../img/icon-brew.png");
+  background-repeat: no-repeat;
+}
+
+.adventages__list li:nth-child(2)::before {
+  top: 105px;
+  left: 0;
+  width: 46px;
+  height: 65px;
+  background-image: url("../img/icon-matreshka.png");
+  background-repeat: no-repeat;
+}
+
+.adventages__list li:nth-child(3)::before {
+  top: 98px;
+  left: 0;
+  width: 63px;
+  height: 58px;
+  background-image: url("../img/icon-thumbsup.png");
+  background-repeat: no-repeat;
+}
+
+.adventages__list li h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.adventages__list li p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 30px;
+  color: #404040;
+}
+
+.press {
+  padding-top: 95px;
+  background-color: #ede5d8;
+}
+
+.press h2 {
+  margin-bottom: 86px;
+}
+
+.press  blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.press p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #404040;
+}
+
+.press cite {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.btn {
+  padding: 17px 23px 20px;
+  margin-bottom: 90px;
+  
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  text-transform: uppercase;
 }
