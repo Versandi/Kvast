@@ -38,12 +38,20 @@ section h2 {
 
 .header-wrapper {
   margin: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 0;
 }
 
-.header-navigation {
+.header-logo {
+  float: left;
+  width: 140px;
+  height: 76px;
+}
+
+nav.header-navigation {
+  float: right;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -57,7 +65,7 @@ section h2 {
 }
 
 .header-navigation li {
-  display: inline;
+  display: inline-block;
 }
 
 .header-navigation li:not(:first-child) {
@@ -115,6 +123,8 @@ section h2 {
 }
 
 .adventages {
+  margin-top: 110px;
+  margin-bottom: 93px;
   background-color: #e5b66c;
 }
 
@@ -131,7 +141,7 @@ section h2 {
 }
 
 .adventages__list li {
-  height: 401px;
+  height: 222px;
   width: 338px;
   padding-top: 188px;
   float: left;
