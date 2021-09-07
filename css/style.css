@@ -68,8 +68,8 @@ nav.header-navigation {
   display: inline-block;
 }
 
-.header-navigation li:not(:first-child) {
-  margin-left: 55px;
+.header-navigation li:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-navigation li > a {
@@ -82,7 +82,7 @@ nav.header-navigation {
 
 .page-header p {
   margin: 0;
-  margin-top: 135px;
+  margin-top: 120px;
   padding: 0;
   text-align: center;
 
