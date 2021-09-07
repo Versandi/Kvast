@@ -37,7 +37,6 @@ section h2 {
 }
 
 .header-wrapper {
-  
   margin: 0;
   display: flex;
   justify-content: space-between;
@@ -89,7 +88,7 @@ section h2 {
   margin-top: 95px;
 }
 
-.new  h3 {
+.new h3 {
   margin: 0;
   margin-left: 35px;
   padding: 0;
@@ -116,8 +115,6 @@ section h2 {
 }
 
 .adventages {
-  
-  
   background-color: #e5b66c;
 }
 
@@ -128,7 +125,7 @@ section h2 {
 
 .adventages__list {
   margin: 0;
-  
+
   padding: 0;
   list-style: none;
 }
@@ -144,9 +141,8 @@ section h2 {
 .adventages__list li::before {
   content: "";
   position: absolute;
-  
 }
-  
+
 .adventages__list li:nth-child(1)::before {
   top: 108px;
   left: 0;
@@ -190,6 +186,7 @@ section h2 {
 
 .press {
   padding-top: 95px;
+  padding-bottom: 90px;
   background-color: #ede5d8;
 }
 
@@ -197,12 +194,13 @@ section h2 {
   margin-bottom: 86px;
 }
 
-.press  blockquote {
+.press blockquote {
   margin: 0;
   padding: 0;
 }
 
 .press p {
+  position: relative;
   margin: 0;
   font-size: 16px;
   line-height: 30px;
@@ -210,21 +208,40 @@ section h2 {
   color: #404040;
 }
 
+.press p::before {
+  content: "";
+  position: absolute;
+  width: 41px;
+  height: 31px;
+  top: 0;
+  left: -106px;
+  background-image: url("../img/quotes.png");
+  background-repeat: no-repeat;
+}
+
 .press cite {
+  margin-top: 53px;
   float: right;
+
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 .btn {
   padding: 17px 23px 20px;
   margin-bottom: 90px;
-  
+
   border: 2px solid rgba(0, 0, 0, 0.2);
   font-size: 16px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.2);
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.press__btn {
+  display: inline-block;
+  margin-top: 45px;
 }
