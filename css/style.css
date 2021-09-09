@@ -193,6 +193,64 @@ nav.header-navigation {
   color: #404040;
 }
 
+/* History */
+
+.history h2 {
+  margin-top: 80px;
+
+  line-height: 60px;
+  text-transform: uppercase;
+}
+
+.history dl {
+  margin-bottom: 85px;
+}
+
+.history dt {
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.history i {
+  float: right;
+  font-size: 16px;
+  font-weight: normal;
+  text-transform: none;
+  font-style: italic;
+  color: #444444;
+}
+
+.history a {
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: normal;
+  color: #834700;
+}
+
+.history dd {
+  margin: 0;
+}
+
+.history img {
+  float: right;
+  margin-top: 10px;
+}
+
+.history p {
+  margin: 0;
+  margin-top: 20px;
+  padding: 0;
+
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #404040;
+}
+/* Press */
+
 .press {
   padding-top: 80px;
   padding-bottom: 85px;
