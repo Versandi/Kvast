@@ -125,7 +125,7 @@ nav.header-navigation {
 
 .adventages {
   margin-top: 80px;
-  margin-bottom: 190px;
+  margin-bottom: 180px;
   background-color: #e5b66c;
 }
 
@@ -194,13 +194,16 @@ nav.header-navigation {
 }
 
 .press {
-  padding-top: 95px;
-  padding-bottom: 90px;
+  padding-top: 80px;
+  padding-bottom: 85px;
   background-color: #ede5d8;
 }
 
 .press h2 {
-  margin-bottom: 86px;
+  margin-bottom: 75px;
+
+  line-height: 60px;
+  text-transform: uppercase;
 }
 
 .press blockquote {
@@ -211,6 +214,7 @@ nav.header-navigation {
 .press p {
   position: relative;
   margin: 0;
+  margin-right: 110px;
   font-size: 16px;
   line-height: 30px;
   font-weight: normal;
@@ -229,28 +233,28 @@ nav.header-navigation {
 }
 
 .press cite {
-  margin-top: 53px;
+  margin-top: 45px;
   float: right;
 
   font-size: 20px;
   font-weight: bold;
   font-style: normal;
+  line-height: 30px;
   text-transform: uppercase;
 }
 
 .btn {
-  padding: 17px 23px 20px;
-  margin-bottom: 90px;
+  padding: 15px 20px;
 
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid #a5a097;
   font-size: 16px;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.2);
+  color: #a5a097;
   text-decoration: none;
   text-transform: uppercase;
 }
 
 .press__btn {
   display: inline-block;
-  margin-top: 45px;
+  margin-top: 35px;
 }
