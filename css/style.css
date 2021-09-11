@@ -125,7 +125,7 @@ nav.header-navigation {
 
 .adventages {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 85px;
   background-color: #ffcb78;
 }
 
@@ -141,8 +141,7 @@ nav.header-navigation {
 }
 
 .adventages__list li {
-  width: 337.33px;
-  padding-top: 105px;
+  padding-top: 104px;
   float: left;
   position: relative;
 
@@ -150,7 +149,16 @@ nav.header-navigation {
 }
 
 .adventages__list li:first-child {
+  width: 308px;
   border-left-color: transparent;
+}
+
+.adventages__list li:nth-child(2) {
+  width: 400px;
+}
+
+.adventages__list li:last-child {
+  width: 304px;
 }
 
 .adventages__list li h2 {
@@ -194,7 +202,7 @@ nav.header-navigation {
 .adventages__list li p {
   padding: 0;
   margin: 0;
-  margin-top: 30px;
+  margin-top: 25px;
 
   width: 210px;
 
@@ -351,8 +359,8 @@ nav.header-navigation {
   border-bottom: 1px solid #e5e5e5;
 }
 
-.catalog__table tr:first-child {
-  border-top: 1px solid transparent;
+.catalog__table tr:nth-child(3) {
+  line-height: 63px;
 }
 
 .catalog__table th {
@@ -370,13 +378,13 @@ nav.header-navigation {
   text-align: end;
 }
 
-.row-2 {
-  line-height: 61px;
-}
-
 .catalog__table td {
   text-transform: uppercase;
   color: #404040;
+}
+
+.catalog__table td:not(:first-child) {
+  text-align: center;
 }
 
 .catalog__table td:first-child {
@@ -388,11 +396,13 @@ nav.header-navigation {
 
 .catalog__table td sup {
   margin-left: 25px;
-  padding: 3px 5px 4px;
+  padding: 2px 5px 2px;
+  width: 50px;
 
   border-radius: 2px;
   color: #ffffff;
   font-size: 8px;
+  font-weight: bold;
   background-color: #000000;
 }
 
