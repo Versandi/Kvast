@@ -98,31 +98,68 @@ nav.header-navigation {
 
 /* Новинки */
 .new h2 {
-  margin-top: 95px;
+  margin-top: 80px;
+
+  line-height: 60px;
+  text-transform: uppercase;
 }
 
-.new h3 {
-  margin: 0;
-  margin-left: 35px;
-  padding: 0;
-  font-size: 40px;
-  font-weight: bold;
-  color: #000000;
+.new__catalog {
+  margin-top: 75px;
 }
 
-.new__item {
-  margin-top: 90px;
-  width: 400px;
+.new__catalog__item {
+  width: 398px;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
 }
 
-.new__item:first-of-type {
+.new__catalog__item:first-of-type {
   float: left;
+  border-right-color: transparent;
 }
 
-.new__item:last-of-type {
+.new__catalog__item:last-of-type {
   float: right;
 }
 
+.new__catalog__item h3 {
+  margin: 0;
+  margin-left: 35px;
+  padding: 0;
+
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.item-description {
+  margin-right: 25px;
+  float: right;
+
+  border-collapse: collapse;
+  line-height: 40px;
+}
+
+.item-description td {
+  padding: 10px 15px;
+
+  border: 1px solid #e5e5e5;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.item-under {
+  float: right;
+  width: 170px;
+}
+
+.item-bottom {
+}
+
+/* adventages */
 .adventages {
   padding-top: 80px;
   padding-bottom: 85px;
@@ -145,20 +182,22 @@ nav.header-navigation {
   float: left;
   position: relative;
 
-  border-left: 1px solid #e5b66c;
+  border-right: 1px solid #e5b66c;
 }
 
 .adventages__list li:first-child {
-  width: 308px;
-  border-left-color: transparent;
+  width: 307px;
 }
 
 .adventages__list li:nth-child(2) {
-  width: 400px;
+  text-align: center;
+  width: 399px;
 }
 
 .adventages__list li:last-child {
-  width: 304px;
+  width: 303px;
+  border-right-color: transparent;
+  text-align: center;
 }
 
 .adventages__list li h2 {
@@ -202,7 +241,7 @@ nav.header-navigation {
 .adventages__list li p {
   padding: 0;
   margin: 0;
-  margin-top: 25px;
+  margin-top: 23px;
 
   width: 210px;
 
@@ -210,6 +249,10 @@ nav.header-navigation {
   font-weight: regular;
   line-height: 30px;
   color: #404040;
+}
+
+.adventages__list li:last-child p {
+  float: right;
 }
 
 /* History */
