@@ -109,6 +109,7 @@ nav.header-navigation {
 }
 
 .new__catalog__item {
+  position: relative;
   width: 398px;
   border-left: 1px solid #e5e5e5;
   border-right: 1px solid #e5e5e5;
@@ -125,13 +126,19 @@ nav.header-navigation {
 
 .new__catalog__item h3 {
   margin: 0;
-  margin-left: 35px;
+  margin-top: 8px;
+  margin-left: 34px;
+  margin-bottom: 37px;
   padding: 0;
 
   font-size: 40px;
   font-weight: bold;
   text-transform: uppercase;
   color: #000000;
+}
+
+.new__catalog__item img {
+  margin-left: 44px;
 }
 
 .item-description {
@@ -143,7 +150,7 @@ nav.header-navigation {
 }
 
 .item-description td {
-  padding: 10px 15px;
+  padding: 0 10px;
 
   border: 1px solid #e5e5e5;
   font-size: 16px;
@@ -151,12 +158,24 @@ nav.header-navigation {
   text-transform: uppercase;
 }
 
+.table {
+  position: absolute;
+  right: 25px;
+}
+
 .item-under {
-  float: right;
   width: 170px;
 }
 
 .item-bottom {
+  margin-top: 5px;
+  margin-left: 35px;
+  width: 338px;
+
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #404040;
 }
 
 /* adventages */
