@@ -33,47 +33,49 @@
           <div class="new__catalog__item">
             <h3>Вахтёр</h3>
             <div class="table">
-            <table class="item-description">
-              <tr>
-                <td>Алк.</td>
-                <td>&lt; 1%</td>
-              </tr>
-              <tr>
-                <td>Ккал</td>
-                <td>35</td>
-              </tr>
-            </table>
-            <p class="item-under">Ржаной хлеб, Вода, Солод, Соль</p>
+              <table class="item-description">
+                <tr>
+                  <td>Алк.</td>
+                  <td>&lt; 1%</td>
+                </tr>
+                <tr>
+                  <td>Ккал</td>
+                  <td>35</td>
+                </tr>
+              </table>
+              <p class="item-under">Ржаной хлеб, Вода, Солод, Соль</p>
             </div>
             <img src="img/bottle-left.jpg" width="319" height="459" alt="" />
             <p class="item-bottom">
               Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и
               придаст сил для вечерних приключений!
             </p>
-            <a href="#">Подробнее</a> <a href="#">Купить</a> <b>150 Р.</b>
+            <a class="item__button-left" href="#">Подробнее</a>
+            <a class="item__button-right" href="#">Купить</a> <b>150 Р.</b>
           </div>
 
           <div class="new__catalog__item">
             <h3>Романтик</h3>
             <div class="table">
-            <table class="item-description">
-              <tr>
-                <td>Алк.</td>
-                <td>&lt; 0,5%</td>
-              </tr>
-              <tr>
-                <td>Ккал</td>
-                <td>27</td>
-              </tr>
-            </table>
-            <p class="item-under">Ячменный хлеб, Вода, Солод, Апельсин</p>
+              <table class="item-description">
+                <tr>
+                  <td>Алк.</td>
+                  <td>&lt; 0,5%</td>
+                </tr>
+                <tr>
+                  <td>Ккал</td>
+                  <td>27</td>
+                </tr>
+              </table>
+              <p class="item-under">Ячменный хлеб, Вода, Солод, Апельсин</p>
             </div>
             <img src="img/bottle-right.jpg" width="319" height="459" alt="" />
             <p class="item-bottom">
               Лёгкий и освежающий напиток поможет сохранять отличное настроение
               в течение всего дня.
             </p>
-            <a href="#">Подробнее</a> <a href="#">Купить</a> <b>90 Р.</b>
+            <a class="item__button-left" href="#">Подробнее</a>
+            <a class="item__button-right" href="#">Купить</a> <b>90 Р.</b>
           </div>
         </div>
       </div>
@@ -207,30 +209,38 @@
       </div>
     </section>
 
-    <section>
-      <h2>Заказать</h2>
-      <p>
-        Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены!
-        Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей —
-        скидка 10%.
-      </p>
-      <label>Представьтесь:</label>
-      <input type="text" /><br />
-      <label for="">Номер телефона:</label>
-      <input type="text" /><br />
-      <label for="">Доп. номер:</label>
-      <input type="text" /><br />
-      <label for="">Email:</label>
-      <input type="email" /><br />
-      <label for="">Объём заказа:</label><br />
-      <select>
-        <option>От 5 до 10 баррелей в неделю</option></select
-      ><br />
-      <label for="">Доп. комментарий:</label>
-      <textarea></textarea><br />
-      <input type="checkbox" checked />
-      <label for="">Я согласен получать квасную рассылку</label><br />
-      <button type="submit">Отправить заказ</button>
+    <section class="order">
+      <div class="container">
+        <h2>Заказать</h2>
+        <p>
+          Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены!
+          Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей —
+          скидка 10%.
+        </p>
+        <label>Представьтесь:</label>
+        <input class="order__name" type="text" /><br />
+        <div class="tel">
+          <form>
+            <label for="">Номер телефона:</label>
+            <input id="telephone" type="text" /><br />
+          </form>
+          <form>
+            <label for="">Доп. номер:</label>
+            <input type="text" /><br />
+          </form>
+        </div>
+        <label for="">Email:</label>
+        <input type="email" /><br />
+        <label for="">Объём заказа:</label><br />
+        <select>
+          <option>От 5 до 10 баррелей в неделю</option></select
+        ><br />
+        <label for="">Доп. комментарий:</label>
+        <textarea></textarea><br />
+        <input type="checkbox" checked />
+        <label for="">Я согласен получать квасную рассылку</label><br />
+        <button type="submit">Отправить заказ</button>
+      </div>
     </section>
 
     <footer>
