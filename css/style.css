@@ -502,12 +502,12 @@ nav.header-navigation {
 
 /* Order */
 .order {
-  padding-top: 85px;
+  padding-top: 80px;
   background-color: #ffcb78;
 }
 
 .order h2 {
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 
   font-size: 40px;
   line-height: 60px;
@@ -516,8 +516,8 @@ nav.header-navigation {
 }
 
 .order p {
-  margin-bottom: 70px;
-  width: 700px;
+  margin-bottom: 71px;
+  width: 680px;
 
   font-size: 16px;
   line-height: 30px;
@@ -525,6 +525,8 @@ nav.header-navigation {
 }
 
 .order label {
+  margin-bottom: 12px;
+
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
@@ -545,7 +547,7 @@ input[type="text"].order__name {
   height: 50px;
 }
 
-.tel form {
+.tel-form {
   display: inline-block;
 }
 
